@@ -1,0 +1,103 @@
+-------------------------------------------------Basic Operators------------------------------------------------
+<b></b>	bold
+<i></i>	itilicized
+<u></u>	underlined
+<sup></sup>	Samplesuperscript
+<sub></sub>	Samplesubscript
+<strong></strong>	strong
+<em></em>	emphasized
+<pre></pre>	Preformatted text
+
+
+
+-------------------------------------------------Order lists---------------------------------------------------------
+Ordered List : 1,A,I,i
+Unordered List: disc, circle, square
+
+
+
+-----------------------------------------------------Semantic Tags------------------------------------------------------
+<header> … </header>
+    <nav> … </nav>
+    <aside> … </aside>
+    <section> … </section>
+    <footer> … </footer> 
+------------------------------------------------Forms-------------------------------------------------------
+Single-line text field:   <input type="text" name="FirstName" value="This is a text field" />
+
+Multi-line text field (textarea):      <textarea name="Comments">This is a multi-line text field</textarea>
+
+Password input:      <input type="password" name="pass" />
+
+Reset button:        <input type="reset" name="resetBtn" value="Reset the form" />
+
+Submit button:         <input type="submit" value="Apply Now" />
+
+Image button (works as a link button, but an image appears instead of a link):    <input type="image" src="submit.gif" name="submitBtn" alt="Submit" />
+
+Ordinary button – no default action, used with JS:         <input type="button" value="click me" />
+
+Checkboxes:       <input type="checkbox" name="fruit" value="apple" />
+
+Radio buttons:     <input type="radio" name="title" value="Mr." />
+
+Grouped radio buttons:      <input type="radio" name="city" value="Lom" />
+                            <input type="radio" name="city" value="Ruse" />
+
+
+
+Dropdown menus:   <select name="gender">
+                    <option value="Value 1"
+                      selected="selected">Male</option>
+                    <option value="Value 2">Female</option>
+                    <option value="Value 3">Other</option>
+                  </select>
+
+
+
+
+
+Multiple-choice menus:     <select name="products" multiple="multiple">
+                              <option value="Value 1"
+                                selected="selected">keyboard</option>
+                              <option value="Value 2">mouse</option>
+                           </select>
+
+
+
+
+Slider:      <input type="range" min="0" max="100" />
+
+
+Spinbox:    <input type="number" min="0" max="100" />
+
+
+
+E-Mail validator:     <input type="email" required="true" pattern="[^ @]*@[^ @].[^ @]"/>
+
+
+
+URL validator:     <input type="url" required="true" />
+
+
+
+Brings the numeric keyboard:     <input type="tel" required="true" />
+
+
+
+
+---------------------------------------------------------------------------Frames------------------------------------------------------------
+Normal frame:      <head><title>Frames Example</title></head>
+                      <frameset cols="180px,*,150px">
+                        <frame src="left.html" ></frame>
+                        <frame src="middle.html" ></frame>
+                        <frame src="right.html" ></frame>
+                      </frameset>
+                   </html>
+
+
+
+iFrame:                   <iframe name="iframeGoogle" width="600" height="400" src="http://www.google.com" frameborder="yes" scrolling="yes"></iframe>
+
+
+
